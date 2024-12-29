@@ -15,8 +15,8 @@ This guide will walk you through the process of setting up a MySQL database with
    ```bash
    mysql -u root -p
    use mysql
-   CREATE USER 'lufias'@'%' IDENTIFIED BY 'lufias';
-   GRANT ALL PRIVILEGES ON *.* TO 'lufias'@'%' WITH GRANT OPTION;
+   CREATE USER 'admin'@'%' IDENTIFIED BY 'lufias';
+   GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;
    FLUSH PRIVILEGES;
    exit
    
